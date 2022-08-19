@@ -1,4 +1,5 @@
-public class Main {
+public class Main
+{
         // homework 1
         //Question 1:
         //      State two(2) fundamental operations and two(2) compound operations
@@ -16,9 +17,16 @@ public class Main {
         //          A compiler translates any given language's source code into machine code
         //          which can be understood by the computer
 
+        // Question 4: Describe one reason for the use of constants
+        //             Constants can make a program easier to read and understand
+
         public static void main(String[] args)
         {
-            System.out.println("hi mom!");
+            int A = 4, B = 4;
+
+            if(A == B)
+                System.out.println( A * A + B * B );
+            else
+                System.out.println(A + B);
         }
-    }
 }
